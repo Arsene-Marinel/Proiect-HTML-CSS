@@ -1,0 +1,97 @@
+/* ============
+   5 = About
+   ============ */
+
+.item1
+{
+    grid-area: myArea ;
+}
+        
+.grid-container 
+{
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    grid-template-columns: 50%;
+    grid-gap: 10px;
+    padding: 10px;
+    animation-name: culuare;
+    animation-duration: 8s;
+    animation-direction:reverse;
+    animation-iteration-count:infinite;
+    animation-fill-mode:both; 
+}
+
+.grid-container img
+{
+    width: 80%;
+    height: 80vh;
+}
+        
+.grid-container div 
+{
+    background-color: rgb(230, 244, 250);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+iframe
+{
+    width: 70%;
+    height: 544px;
+}
+
+i 
+{
+    font-size: 55px;
+}
+   
+@keyframes culuare 
+{
+    0%   {background-color: rgb(33, 243, 180);}
+    25%  {background-image: linear-gradient(to right, red , yellow);}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(33, 243, 180);}
+}
+
+@media only screen and (max-width:1024px)
+{
+    .grid-container img
+    {
+        height: 60vh;
+    }
+
+    .grid-container div
+    {
+        font-size: 0.8em;
+    }
+
+    iframe
+    {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .grid-container img
+    {
+        height: 40vh;
+    }
+
+    .grid-container div
+    {
+        font-size: 1rem;
+    }
+
+    iframe
+    {
+        width: 90%;
+        height: 60vh;
+    }
+
+    i 
+    {
+        font-size: 1.2em;
+    }
+}

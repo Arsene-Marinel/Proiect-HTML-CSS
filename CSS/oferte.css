@@ -1,0 +1,55 @@
+/* ============
+   6 = Oferte
+   ============ */
+table 
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-left: 5%;
+    width: 90%;
+    padding:0;
+    list-style-type:none;
+}
+
+th, td 
+{
+    align-self:center;
+    background-image: linear-gradient(to right, yellow, rgba(0, 0, 0, 0));
+    padding: 15px;
+}
+
+table#t01 tr:nth-child(even) 
+{
+    background-color:  #eee;
+}
+
+table#t01 tr:nth-child(odd) 
+{
+    background-color: #fff;
+}
+  
+table#t01 th 
+{
+    background-color: black;
+    color: white;
+}
+
+.center1
+{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: green;
+    font-size: 2.5em;
+}
+
+@media screen and (max-width:768px)
+{
+    .center1 
+    {
+        font-size: 1.5em;
+    }
+}
+
+

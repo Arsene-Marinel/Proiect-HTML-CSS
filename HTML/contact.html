@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Pizza Masters | M A S T E R S</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <!--Google-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/images/icon.png" />
+        <link rel="stylesheet" type="text/css" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/CSS/index.css">
+
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
+    </head>
+
+    <body>
+        <!-- navbar  -->
+        <header>
+            <div class="container">
+                <nav>
+                    <img src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/images/pizza-logo.png" alt="logo" class="logo">
+                    <ul> 
+                        <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/HTML/index.html">Acasa</a></li>
+                        <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/HTML/meniu.html">Meniu</a></li>
+                        <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/HTML/contact.html" class="active">Contact</a></li>
+                        <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/HTML/about.html">About</a></li>
+                        <li class="dropdown"><button class="font">Catering</button>
+                            <ul class="dropdown-content">
+                                <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/HTML/oferte.html">Oferte speciale</a></li>
+                                <li><a href="#">0123 456 789</a></li>
+                                <li><a href="#">9876 543 210</a></li>
+                            </ul>
+                        </li>
+                    </ul> 
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </div>
+        </header> 
+        <!-- navbar  --> 
+
+        <div class="center">
+            <hr>
+            <p class="font1">Unde ne puteti gasi?</p> 
+            <hr>
+            <p>Pizzeria Masters!<i class="material-icons" style="font-size:36px">restaurant</i></p>
+            <p>Strada Academiei 14, Bucuresti</p>
+            <p>Comanda: 0123 45 67 89 – Pizzeria Masters</p>
+            <p>Telefonul pentru contact cu clientii: 9876 543 210 (pentru probleme sau neclaritati!)</p> 
+            <!-- google map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8878206568024!2d26.09749961550195!3d44.43546327910224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff472f47f047%3A0x493984726f0235f9!2sFacultatea%20de%20Matematic%C4%83%20%C8%99i%20Informatic%C4%83%20-%20Universitatea%20din%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1585824437619!5m2!1sen!2sro"
+             style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <!-- google map -->
+            <hr>
+            
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" style="background-color:lavender;">
+                    <p>Program:<p> 
+                    <p class="font">&nbsp; Luni – Vineri: 08:00 – 23:00</p>
+                    <p class="font">&nbsp; Sambata: 08:00 – 20:00</p>
+                    <p class="font">&nbsp;Duminica:<span class="red">Inchis!</span></p> 
+                </div>
+                <div class="col-sm-8" style="background-color:rgb(230, 244, 250);">
+                    <div class="container center">
+                        <hr>=
+                        <p class="font1">Puteti sa ne trimiteti comanda prin optiunea noastra online-delivery!</p> 
+                        <hr>
+            
+                        <label for="demo">Numele dumneavoastra:</label>
+                        <form action="/action_page.php">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">Person</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="First Name">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div> 
+            
+                            <label for="demo">Email:</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+                                <div class="input-group-append">
+                                  <span class="input-group-text">@example.com</span>
+                                </div>
+                            </div>
+            
+                            <div class="form-group">
+                                <label for="comment">Comanda dumneavoastra (impreuna cu adresa livrarii si nr. de telefon!!!):</label>
+                                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                            </div>
+            
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Sunt de acord cu prelucrarea datelor cu caracter personal
+                                </label>
+                            </div>
+            
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+            
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                    
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                        <h1 class="modal-title">Comanda livrata!<i class='far fa-smile-beam' style='font-size:36px'></i></h1>
+                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                        </div>
+                                        
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <p>Va multumim ca ati ales restaurantul nostru!</p>
+                                        </div>
+                                        
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+        <div class="center">    
+            <p class="font1">Livrare:</p>
+            <br>    
+            <p class="font">* Gratuita pe raza de 5 km in jurul punctului de lucru, pentru o comada de minim 30 lei.</p>
+            <p class="font">* Pentru livrari in afara zonei, comanda minima creste cu 10 lei/km.</p>
+        </div>
+
+        <hr>
+        <div class="center">
+            <p>SUNTEM SI PE FACEBOOK:</p>
+            <a href="https://www.facebook.com/" target = "_blank"><span class="active"><i class='fab fa-facebook-square' style='font-size:36px'></i></span></a>
+            <hr>
+            <p>SI NE PUTETI SCRIE SI PE ADRESA NOASTRA DE EMAIL:</p>
+            <p><em>pizza_masters@gmail.com</em><a href="mailto:ro.yahoo.com"><span class="active"><i class="material-icons" style="font-size:36px">email</i></span></a></p>
+            <hr>
+            <p class="font">VA URAM POFTA BUNA!<i class="material-icons" style="font-size:36px">sentiment_very_satisfied</i></p>
+        </div>
+
+        <footer class="container">
+            <a href="#" class="float-right"><i class='fas fa-chevron-circle-up'></i></a>
+            <p>&copy; 2020 Marinel Company&#10122; &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+        
+        <script src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%201%20-%20Site%20web/SCRIPT/navbar.js"></script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+/* ============
+   4 = Menu
+   ============ */
+.myImg 
+{
+    cursor: pointer;
+    transition: 0.3s;
+}
+     
+.responsive 
+{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+   
+div.responsive img 
+{
+    width: 100%;
+    height: 30vh;
+}
+   
+div.responsive img:hover
+{
+    transform: scale(1.5);
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+}
+     
+div.desc 
+{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    padding: 15px;
+    text-align: center;
+}
+   
+div.desc1 
+{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.figure
+{
+    position:relative; 
+    margin-right: 10%;
+    color: rgba(0, 0, 0, 0.596);
+	animation: misca 4s infinite; 
+}
+
+@keyframes misca
+{
+    0% {left: 10px;}
+    50%{left: 150px;}
+    100% {left: 10px;}
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .responsive 
+    {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    div.desc 
+    {
+        font-size: 1.5em;
+    }
+
+    div.desc1 
+    {
+        font-size: 1.3em;
+    }
+} 
+     
+@media only screen and (max-width: 768px)
+{
+    .responsive 
+    {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .figure
+    {
+        margin-right: 25%;
+    }
+
+    div.desc 
+    {
+        font-size: 1em;
+    }
+
+    div.desc1 
+    {
+        font-size: 1em;
+    }
+}
+     
+@media only screen and (max-width: 500px) 
+{
+    .responsive 
+    {
+        width: 50%;
+    }
+
+    .figure
+    {
+        margin-right: 28%;
+    }
+
+    div.desc 
+    {
+        font-size: 1.3em;
+    }
+
+    div.desc1 
+    {
+        font-size: 1em;
+    }
+}
+
