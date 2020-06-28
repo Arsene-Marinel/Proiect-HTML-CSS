@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/pagina404.jpg");
+}
+
+.button1{
+    background-image: url("file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/button.jpg");
+    background-size: cover;
+    color: red;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 47%;
+    font-size: 1.5vw;
+}
+
+.button1:hover {
+    color: green;
+}
+
+h1, h2
+{
+    color: red;
+    text-align: center;
+    size: 20vw;
+}

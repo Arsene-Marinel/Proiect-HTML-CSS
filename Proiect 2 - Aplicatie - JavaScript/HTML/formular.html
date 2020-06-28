@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Pizza Masters | M A S T E R S</title>
+ 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/icon.png" />
+        <link rel="stylesheet" type="text/css" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/CSS/formular.css">
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="label">User Login</h1>
+            <form class="login_form" method="post" id="form">
+                <div class="font">Email or Phone</div>
+                <input autocomplete="off" type="text" id="email" class="inp">
+                <div id="email_error">Please fill up your Email or Phone</div>
+
+                <div class="font font2">Password</div>
+                <input type="password" id="password" class="inp">
+                <div id="pass_error">Please fill up your Password</div>
+
+                <div class="font font2">Password Verify</div>
+                <input type="password" id="password2" class="inp">
+                <div id="pass_error">Please fill up your Password</div>
+
+                <p>Please select your gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <label>Localitate:</label>
+                <select id="city">
+                    <option value="Bucuresti" selected>Bucuresti</option>
+                    <option value="Timisoara">Pitesti</option>
+                </select>
+
+                <br>
+                <label for="hour">Hour (between 08:00 and 22:00):</label>
+                <input type="range" id="hour" name="hour" min="8" max="22" class="slider">
+                <p>Value: <span id="ora"></span></p>
+
+                <input type="checkbox" id="myCheck" onclick="checkBox()">
+                <label for="myCheck">Termenii si conditiile</label>
+                <p id="text" style="display:none;">Checkbox is CHECKED!</p>
+                <button type="button" id="login">Login</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/SCRIPT/formular.js"></script>
+    </body>
+</html>

@@ -1,0 +1,236 @@
+body {
+    background-image: url("file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/background.jpg");
+    color: black;
+    font-family: myFont;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.font {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.active {
+    color: #4CAF50;
+}
+
+.red {
+    color: red;
+}
+
+hr {
+    background-color: red;
+    align-content: center;
+    height: 4px;
+    width: 5%;
+    border-radius: 100%;
+}
+
+.font1 {
+    font-family: 'Lobster', cursive;
+    font-size: 68px;
+    color: green;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        font-size: 1.2em
+    }
+
+    .font {
+        font-size: 1.2em;
+    }
+
+    .font1 {
+        font-size: 1.5em;
+    }
+
+    iframe {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+    iframe {
+        width: 80%;
+        height: 25vh;
+    }
+}
+
+.button1 {
+    background-image: url("file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/button.jpg");
+    background-size: cover;
+    color: red;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    color: green;
+}
+
+/* ============
+   Slider
+   ============ */
+.top-slider-single {
+    position: relative;
+    width: 100%;
+}
+
+.top-slider-single img {
+    width: 100%;
+}
+
+.top-slider-single .top-slider-content {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    right: 15%;
+    text-align: center;
+    z-index: 99;
+}
+
+.top-slider-single .top-slider-content .slider-small-title {
+    font-family: "Tangerine", cursive;
+    font-size: 100px;
+    line-height: 40px;
+    color: green;
+}
+
+.top-slider-single .top-slider-content .slider-title {
+    color: white;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.top-slider-single .top-slider-content p {
+    color: green;
+    font-size: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    .top-slider-single img {
+        height: 60vh;
+    }
+
+    .top-slider-single .top-slider-content {
+        top: 15%;
+    }
+
+    .top-slider-single .top-slider-content .slider-small-title {
+        font-size: 1.4em;
+    }
+
+    .top-slider-single .top-slider-content .slider-title {
+        font-size: 1.8rem;
+        line-height: 15vh;
+    }
+
+    .top-slider-single .top-slider-content p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-slider-single img {
+        height: 47vh;
+    }
+
+    .top-slider-single .top-slider-content {
+        top: 10%;
+    }
+
+    .top-slider-single .top-slider-content .slider-small-title {
+        font-size: 2em;
+    }
+
+    .top-slider-single .top-slider-content .slider-title {
+        font-size: 1.7rem;
+        line-height: 10vh;
+    }
+
+    .top-slider-single .top-slider-content p {
+        font-size: 1.1em;
+    }
+}
+
+
+/*
+*/
+
+footer {
+    background-color: #ffaa45;
+    text-align: center;
+}
+
+footer i {
+    font-size: 36px;
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        font-size: 1em;
+    }
+
+    footer i {
+        font-size: 1em;
+    }
+}
+
+
+/* Titlu */
+#treptat {
+    display: inline-block;
+}
+
+.titlu span {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+    display: inline-block;
+    color: red;
+}
+
+span.culoare {
+    opacity: 1;
+    color: #4CAF50;
+    transform: translateY(0px);
+}
+
+
+/*Ascunde Imagini*/
+.galerie {
+    display: grid;
+    margin-top: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 1em;
+}
+
+.grid-box img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/*Static - Dinamic*/
+.S,
+.D {
+    font-size: 2vw;
+    display: block;
+}

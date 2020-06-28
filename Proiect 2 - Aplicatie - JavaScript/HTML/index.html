@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Pizza Masters | M A S T E R S</title>
+ 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/icon.png" />
+        <link rel="stylesheet" type="text/css" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/CSS/index.css">
+        <link rel="stylesheet" type="text/css" href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/CSS/navbar.css">
+        
+    </head>
+    
+    <body>
+        <!-- navbar  -->
+        <header>
+            <nav>
+                <img src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/pizza-logo.png" alt="logo" class="logo">
+                <ul> 
+                    <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/HTML/index.html" class="active">Acasa</a></li>
+                    <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/HTML/meniu.html">Meniu</a></li>
+                    <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/HTML/about.html">About</a></li>
+                    <li class="dropdown"><button class="font">Catering</button>
+                        <ul class="dropdown-content">
+                            <li><a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/HTML/oferte.html">Oferte speciale</a></li>
+                            <li><a href="#">0123 456 789</a></li>
+                            <li><a href="#">9876 543 210</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+                
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header> 
+        <!-- navbar  -->
+
+        <hr>
+        <div class="center">
+            <!--Ex.3 Nivel 2-->
+            <h1 class="titlu" id='treptat'>Pizza Masters</h1>
+        
+            <hr>
+            <h2 class="font">Cont Pizza Masters:</h2>
+            <a href="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/HTML/formular.html" class="button1">Register</a>
+            <p>Aboneaza-te la pizzeria noastra pentru a primi toate informatiile si ofertele momentului!</p>
+
+            <hr>
+            <!--Ex.1 Nivel 2-->
+            <form>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday">
+                <input type="button" id="trimite" value="Submit">
+                <div id="varsta"></div>
+            </form>
+        </div>
+
+
+        <!--Ex.8 Nivel 1-->
+        <div class="galerie" id='galerie'>
+            <div class="grid-box"><img src="../images/pizza.jpg" alt="Poza"></div>
+            <div class="grid-box"><img src="../images/pizza1.jpg" alt="Poza"></div>
+            <div class="grid-box"><img src="../images/pizza2.jpg" alt="Poza"></div>
+        </div>
+        <button id="buttonImages">Ascunde Imagini</button>
+
+
+        <!--Ex.9 Nivel 1-->
+        <ul id="lista1">
+            <li class="S">1.Pizza Mica</li>
+            <li class="S">2.Paste</li>
+            <li class="S">3.Aperitiv</li>
+            <li class="S">4.Supa</li>
+            <li class="S">5.Desert</li>
+            <li class="S">6.Bauturi racoritoare</li>
+            <li class="S">7.Sosuri</li>
+            <li class="S">8.Pizza Medie</li>
+            <li class="S">9.Pizza Mare</li>
+        </ul>
+    
+        <ol id="lista2">
+            <li class="D">-> 1.Pizza Mica </li>
+            <li class="D">-> 2.Paste </li>
+            <li class="D">-> 3.Aperitiv </li>
+            <li class="D">-> 4.Supa</li>
+            <li class="D">-> 5.Desert</li>
+            <li class="D">-> 6.Bauturi racoritoare</li>
+            <li class="D">-> 7.Sosuri</li>
+            <li class="D">-> 8.Pizza Medie</li>
+            <li class="D">-> 9.Pizza Mare</li>
+        </ol>
+        <div>
+            <button id="static">Woman Clothes</button>
+            <button id="dinamic">Men Clothes</button>
+        </div>
+
+        <!-- slider  -->
+        <!-- <section>
+            <div class="top-slider-single">
+                <img src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/pizza2.jpg" alt="img">
+                <div class="top-slider-content">
+                    <span class="slider-small-title">Bun venit!</span>
+                    <h2 class="slider-title">La noua pizzerie din orasul Bucuresti.</h2>
+                    <p>Viziteaza-ne sau suna la numarul nostru de telefon.</p>
+                </div>
+            </div> 
+
+            <div class="center">
+                <h2>Comanda: 0123 45 67 89 – Pizzeria Masters</h2>
+                <p class="font">Strada Academiei 14, Bucuresti</p>
+            </div>
+            <hr>
+
+            <div class="top-slider-single">
+                <img src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/pizza1.jpg" alt="img">
+                <div class="top-slider-content">
+                    <span class="slider-small-title">Masters</span>
+                    <h2 class="slider-title">O locatie retrasa in afara orasului.</h2>
+                    <p>Vino sa savurezi preparatele noastre intr-un mediu relaxant.</p>
+                </div>
+            </div>
+
+            <div class="center">
+                <p>Program:<p> 
+                <p class="font">&nbsp; Luni – Vineri: 08:00 – 23:00</p>
+                <p class="font">&nbsp; Sambata: 08:00 – 20:00</p>
+                <p class="font">&nbsp;Duminica:<span class="red">Inchis!</span></p> 
+            </div>
+            <hr>
+
+            <div class="top-slider-single">
+                <img src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/images/pizza.jpg" alt="img">
+                <div class="top-slider-content">
+                    <span class="slider-small-title">Pizza</span>
+                    <h2 class="slider-title">Un meniu diversificat si delicios.</h2>
+                    <p>Probabil cea mai buna pizza din oras.</p>
+                </div>
+            </div>
+        </section> -->
+        <!-- slider  -->
+
+        <div class="center">    
+            <p>Livrare:</p>
+            <br>    
+            <p class="font">* Gratuita pe raza de 5 km in jurul punctului de lucru, pentru o comada de minim 30 lei.</p>
+            <p class="font">* Pentru livrari in afara zonei, comanda minima creste cu 10 lei/km.</p>
+        <hr>
+
+            <!-- google map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8878206568024!2d26.09749961550195!3d44.43546327910224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff472f47f047%3A0x493984726f0235f9!2sFacultatea%20de%20Matematic%C4%83%20%C8%99i%20Informatic%C4%83%20-%20Universitatea%20din%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1585824437619!5m2!1sen!2sro"
+             style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <!-- google map -->
+        </div>
+
+        <footer class="container">
+            <a href="#" class="float-right"><i class='fas fa-chevron-circle-up'></i></a>
+            <p>&copy; 2020 Marinel Company&#10122; &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/SCRIPT/navbar.js"></script>
+        <script src="file:///D:/FACULTATE/ANUL%20I/SEMESTRUL%20II/Tehnici%20web/LABORATOR/Proiect%202%20-%20Aplicatie%20-%20JavaScript/SCRIPT/index.js"></script>
+    </body>
+</html>
